@@ -1,0 +1,9 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:38027
+    user: admin
+    password: admin
+    packages:
+      trust-all: true
+  jms:
+    pub-sub-domain: true # 表示点对点;

@@ -1,0 +1,9 @@
+spring:
+  activemq:
+    broker-url: tcp://localhost:38027
+    user: admin
+    password: admin
+    packages:
+      trust-all: true
+  jms:
+    pub-sub-domain: true # false表示点对点; true表示主题模式(即发布订阅)

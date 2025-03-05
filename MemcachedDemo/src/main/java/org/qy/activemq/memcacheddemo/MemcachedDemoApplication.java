@@ -1,15 +1,13 @@
-package org.qy.activemq.consumer;
+package org.qy.activemq.memcacheddemo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.jms.annotation.EnableJms;
-
 
 @SpringBootApplication
-public class ConsumerApplication {
+public class MemcachedDemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ConsumerApplication.class, args);
+        SpringApplication.run(MemcachedDemoApplication.class, args);
     }
 
 }

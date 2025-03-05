@@ -28,6 +28,12 @@
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+        <!--memcached客户端依赖-->
+        <dependency>
+            <groupId>com.googlecode.xmemcached</groupId>
+            <artifactId>xmemcached</artifactId>
+            <version>2.4.7</version>
+        </dependency>
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
